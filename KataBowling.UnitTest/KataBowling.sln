@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KataBowling.UnitTest", "KataBowling.UnitTest.csproj", "{DCBAA368-678C-4D76-8426-3FD4C1738DDD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D94F5158-48F8-4E9E-947D-AFB394BF9AAD}"
+	ProjectSection(SolutionItems) = preProject
+		KataBowling.UnitTest.vsmdi = KataBowling.UnitTest.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KataBowling.Code", "..\KataBowling.Code\KataBowling.Code.csproj", "{2CBBE884-1AE1-4950-BBE7-6C4692573C36}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = KataBowling.UnitTest.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCBAA368-678C-4D76-8426-3FD4C1738DDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCBAA368-678C-4D76-8426-3FD4C1738DDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCBAA368-678C-4D76-8426-3FD4C1738DDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCBAA368-678C-4D76-8426-3FD4C1738DDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CBBE884-1AE1-4950-BBE7-6C4692573C36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CBBE884-1AE1-4950-BBE7-6C4692573C36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CBBE884-1AE1-4950-BBE7-6C4692573C36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CBBE884-1AE1-4950-BBE7-6C4692573C36}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
