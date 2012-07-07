@@ -69,6 +69,24 @@ namespace KataBowling.UnitTest
 			Assert.AreEqual((10 + 4 + 3) + (4 + 3), _game.score());
 		}
 
+		[TestMethod]
+		public void It_should_be_a_total_of_41_in_20_rolls_due_to_one_strike_followed_by_spare_and_than_a_7_point_frame()
+		{
+			Rolls(2, 0);
+
+			_game.roll(10);
+
+			_game.roll(4);
+			_game.roll(6);
+
+			_game.roll(4);
+			_game.roll(3);
+
+			Rolls(14, 0);
+
+			Assert.AreEqual((10 + 4 + 6) + (4 + 6 + 4) + (4 + 3), _game.score());
+		}
+
 
 		[TestMethod]
 		public void It_should_be_a_total_of_300_for_a_perfect_game()
